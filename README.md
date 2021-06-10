@@ -1,5 +1,6 @@
 # lista-tareas
-Listado de tareas utilizando: HTML, CSS, JS vanilla y firestore para guardar,editar y eliminar las tareas cargadas por el usuario.
+Aplicacion WEB CRUD creada con el objetivo de utilizar firestore para el almacenamiento de las tareas
+Tecnologias: HTML,CSS y JS
 
 
 
