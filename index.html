@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    <title>Aplicacion CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="card mx-auto mt-5" style="width: 18rem;">
+            <div class="card-body text-center">
+                <form id="contenidoP">
+                    <input type="text" class="card-title text-center" id="entradaU" autofocus placeholder="Tarea"></input>
+                    <textarea name="" id="descri" cols="23" rows="5" placeholder="Tarea a realizar"></textarea>                
+                    <button class="btn btn-primary mt-2" id="btn">Agregar</button>
+                </form>
+            </div>
+        </div>
+        <div id="cont-tareas">
+
+        </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyA0xMaymHMq_7Obe9gIdaZ-bVM-Y_Qj6nk",
+        authDomain: "app-web-crud.firebaseapp.com",
+        projectId: "app-web-crud",
+        storageBucket: "app-web-crud.appspot.com",
+        messagingSenderId: "444495404816",
+        appId: "1:444495404816:web:27b4ab093ed6a394668f95"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>
